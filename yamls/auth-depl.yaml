@@ -15,7 +15,7 @@ spec:
       containers:
         - name: auth
           #image: us.gcr.io/ticketing-dev-370913/auth
-          image: furkanmeydan/service-auth:latest
+          image: furkanmeydan/azure-mservice-auth:108
           ports:
            - containerPort: 3000
 ---
